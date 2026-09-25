@@ -1,0 +1,1 @@
+Write-Output "Hello From Thr PowerShell Scripts"
