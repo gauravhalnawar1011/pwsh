@@ -1,3 +1,32 @@
+# ============================================================
+# PowerShell Variables
+# ============================================================
+
+# A variable is created using the $ symbol.
+# Syntax:
+# $variableName = value
+
+$name = "Gaurav"
+$age = 25
+
+Write-Output $name
+Write-Output $age
+
+
+# ============================================================
+# Getting the Data Type of a Variable
+# ============================================================
+
+# GetType() tells us the .NET data type of the variable.
+
+$name.GetType()
+$age.GetType()
+
+
+# You can also get the full type name:
+
+$name.GetType().FullName
+$age.GetType().FullName
 # -----------------------------------------------
 # PowerShell - Taking Input from User
 # -----------------------------------------------
